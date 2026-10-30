@@ -14,8 +14,6 @@ A finalidade principal é **defensiva**:
 
 E, para quem faz **teste de intrusão com escopo e autorização**, serve como wordlist de reconhecimento, enumeração de usuários e fuzzing — localizada para alvos brasileiros.
 
-> ⚠️ **Uso responsável.** Estas listas só devem ser usadas em sistemas que você **é dono** ou tem **autorização por escrito** para testar. Acessar sistemas de terceiros sem autorização é crime no Brasil (Lei 12.737/2012 e art. 154-A do Código Penal). O projeto é material educacional e de defesa; o uso é responsabilidade de quem o utiliza.
-
 ## De onde vêm os dados
 
 Nada aqui vem de bases de dados vazadas. Tudo é **gerado**:
@@ -26,7 +24,6 @@ Nada aqui vem de bases de dados vazadas. Tudo é **gerado**:
 | API de nomes do IBGE (opcional) | prenomes mais frequentes do país (estatística pública, não dado pessoal) |
 | Padrões de mutação | ano, sufixos (`123`, `@2024`), *leet* (`a→@`), capitalização |
 
-Isso é de propósito: não espalha dados pessoais de ninguém, não infringe a LGPD e é totalmente reproduzível — qualquer um audita e regenera.
 
 ## Listas geradas
 
