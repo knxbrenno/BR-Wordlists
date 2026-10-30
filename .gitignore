@@ -1,0 +1,8 @@
+# Listas grandes: gere localmente com build.py / passwords.py
+wordlists/senhas_br_grande.txt
+wordlists/senhas_br_enorme.txt
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
