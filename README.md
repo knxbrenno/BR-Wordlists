@@ -1,6 +1,6 @@
-# 🇧🇷 BR-Wordlists
+# BR-Wordlists
 
-Wordlists com foco no Brasil, **geradas por script** a partir de dados públicos e de padrões reais — não de vazamentos. A maioria das listas prontas (SecLists, rockyou) é em inglês e cobre mal os padrões brasileiros: times de futebol, `Senha@2024`, `mudar123`, nomes e sobrenomes comuns, caminhos como `/nfe` e `/boleto`, subdomínios como `sei.` e `nfe.`.
+Wordlists com foco no Brasil, **geradas por script** a partir de dados públicos e de padrões reais, não de vazamentos. A maioria das listas prontas (SecLists, rockyou) é em inglês e cobre mal os padrões brasileiros: times de futebol, `Senha@2024`, `mudar123`, nomes e sobrenomes comuns, caminhos como `/nfe` e `/boleto`, subdomínios como `sei.` e `nfe.`.
 
 O repositório traz os **geradores**, as **listas-semente** e as wordlists pequenas e médias já prontas. As versões grandes você gera localmente em segundos.
 
@@ -12,9 +12,9 @@ A finalidade principal é **defensiva**:
 - **Auditoria da própria base:** com autorização, rode a lista contra os hashes dos seus usuários para descobrir quem usa senha fraca e orientar a troca.
 - **Teste da superfície exposta:** veja se o seu site responde em `/backup.sql`, `/.env`, `/nfe`, ou se há subdomínios esquecidos (`hml.`, `antigo.`).
 
-E, para quem faz **teste de intrusão com escopo e autorização**, serve como wordlist de reconhecimento, enumeração de usuários e fuzzing — localizada para alvos brasileiros.
+E, para quem faz **teste de intrusão com escopo e autorização**, serve como wordlist de reconhecimento, enumeração de usuários e fuzzing, localizada para alvos brasileiros.
 
-> ⚠️ **Uso responsável.** Estas listas só devem ser usadas em sistemas que você **é dono** ou tem **autorização por escrito** para testar. Acessar sistemas de terceiros sem autorização é crime no Brasil (Lei 12.737/2012 e art. 154-A do Código Penal). O projeto é material educacional e de defesa; o uso é responsabilidade de quem o utiliza.
+> **Uso responsável.** Estas listas só devem ser usadas em sistemas que você **é dono** ou tem **autorização por escrito** para testar. Acessar sistemas de terceiros sem autorização é crime no Brasil (Lei 12.737/2012 e art. 154-A do Código Penal). O projeto é material educacional e de defesa; o uso é responsabilidade de quem o utiliza.
 
 ## De onde vêm os dados
 
@@ -26,7 +26,7 @@ Nada aqui vem de bases de dados vazadas. Tudo é **gerado**:
 | API de nomes do IBGE (opcional) | prenomes mais frequentes do país (estatística pública, não dado pessoal) |
 | Padrões de mutação | ano, sufixos (`123`, `@2024`), *leet* (`a→@`), capitalização |
 
-Isso é de propósito: não espalha dados pessoais de ninguém, não infringe a LGPD e é totalmente reproduzível — qualquer um audita e regenera.
+Isso é de propósito: não espalha dados pessoais de ninguém, não infringe a LGPD e é totalmente reproduzível: qualquer um audita e regenera.
 
 ## Listas geradas
 
